@@ -1,0 +1,113 @@
+@media only screen and (max-width:700px) {
+    .header-menu-bar{
+    display: grid !important;
+    grid-template-rows: auto !important;
+    width: 100% !important;
+    }
+    .banner-head-txt{
+        padding-bottom:55px !important;
+    }
+    .banner-nyc{
+       height:450px !important;
+    }
+    .back-color-banner{
+        height:450px !important; 
+    }
+    .about-page{
+        width: 100%  !important;
+    }
+    .about-page p{
+        padding: 10px !important;
+    }
+    .bar-width{
+        padding: 10px !important;
+        width: 100% !important;
+        display: block !important;
+        /* display: flex !important;
+        flex-wrap: wrap !important; */
+    }
+    .skill-prograss{
+        padding-top: 20px !important;
+        width: 100% !important;
+    }
+    .bar-1, .bar-2, .bar-3{
+        position: relative !important;
+        width:510px !important;
+        height: 11px !important;
+    }
+    .bar-1::before, .bar-2::before, .bar-2::before{
+        content: '' !important;
+        position: absolute !important;
+        top: 0 !important;
+        width:450px !important;
+        height: 11px !important;
+    }
+    .bar-2::before{
+        width:340px !important;
+    }
+    .bar-3::before{
+        width:250px !important;   
+    }
+    .bar-1::after{
+        right: 40px !important;
+    }
+    .triangle-down{
+        left: 445px !important;
+    }
+    .bar-2::after{
+        right:144px !important;
+    }
+    .triangle-down1{
+        left:340px !important;
+    }
+    .bar-3::after{
+        right:240px !important;
+    }
+    .triangle-down2{
+        left:243px !important;
+    }
+    .width-contact{
+        width: 100% !important;
+    }
+    .input-type-sub{
+        display: block !important;
+        margin-bottom:50px !important;
+    }
+    .SUBCRIBE-title{
+        padding:20px 0px 20px 0px !important;
+    }
+    .input-type-sub input{
+        margin: 10px !important;
+    }
+    .yellow-color{
+        height: 300px !important;
+    }
+    .sub-btn{
+        margin-top: 10px !important;
+    }
+    .first-name input{
+        width: 250px !important;
+    }
+    .content-team{
+        padding: 0 !important;
+    }
+    .border-img{
+        display: block !important;
+        width: 100% !important;
+    }
+    .border-img p{
+        padding: 0px 90px !important;
+    }  
+    .port-folio{
+        padding: 0 !important;
+    } 
+    .port-img{
+        width: 100% !important;
+        display: flex !important;
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+    } 
+    .img-3-port{
+        display: block !important;
+    }  
+}

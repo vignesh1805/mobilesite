@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Satisfy&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.banner-nyc{
+   background-image: url(https://wallpapercave.com/wp/wp3393290.jpg);
+   height: 550px;
+   background-position: center;
+   background-size: cover; 
+}
+.back-color-banner{
+    height: 550px;
+    background-image: linear-gradient(to right, rgba(51, 11, 11, 0.103) , rgba(32, 32, 4, 0.747));
+}
+.home-header{
+    background-color: rgba(0, 0, 0, 0.616);
+    padding: 5px 15px;
+}
+.header-menu-bar{
+    color: white;
+    display: grid;
+    width: 80%;
+    margin: 0px auto;
+    align-items: center;
+    justify-content: space-between;
+    grid-template-columns: auto auto;
+    height: 56px;
+}
+.menu-1-header a{
+    margin: 0px 10px 0px 10px;
+    font-size: 15px;
+    color: white;
+}
+.back-menu-header{
+    height: 56px;
+    background-color: rgba(0, 0, 0, 0.281);  
+}
+.banner-head-txt h1{
+    font-family: 'PT Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Satisfy', cursive;
+font-size: 60px;
+}
+.banner-head-txt{
+    text-align: center;
+   display: grid;
+   justify-content: center;
+   align-content: center;
+   height: 390px;
+
+}
+.banner-head-txt a{
+    color: black;
+    font-size: 15px;
+    cursor:progress;
+}
+.banner-head-txt button{
+    background-color: rgb(255, 217, 0);
+    border: none;
+    padding: 8px 25px;
+    margin-top: 35px;
+}
+.banner-head-txt p{
+    font-weight: 500;
+    font-size:17px;
+    margin-top: 4px;
+}
+.about-page{
+    margin-top: 35px;
+    width: 80%;
+    margin: 35px auto auto auto;
+    text-align: center;
+}
+.about-page h1{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.about-page p{
+    color: rgb(67, 71, 75);
+    font-size: 13.5px;
+    line-height: 1.8;
+    padding: 0px 85px;
+}
+.bar-width{
+    width: 80%;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns:40% 60%;
+}
+.skill-prograss p{
+    margin: 8px 8px 0px 0px;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(67, 71, 75);
+}
+.para-in-bar h2{
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.para-in-bar p{
+    line-height: 1.8;
+    color: rgb(67, 71, 75);
+    font-size: 13.5px;
+    padding-right: 12px;
+}
+.bar-1{
+    position: relative;
+    width: 640px;
+    height: 11px;
+    box-shadow: inset 3px 3px 10px lightgray;
+    box-shadow: 0px 0px 10px lightgray;
+    margin: 10px 10px 10px 0px;
+}
+.bar-1::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 563px;
+    height: 11px;
+    background-color: rgb(255, 217, 0);
+}
+.bar-2{
+    position: relative;
+    width: 640px;
+    height: 11px;
+    box-shadow: inset 3px 3px 10px lightgray;
+    box-shadow: 0px 0px 10px lightgray;
+    margin: 10px 10px 10px 0px;
+}
+.bar-2::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 470px;
+    height: 11px;
+    background-color: rgb(255, 217, 0);
+}
+.bar-3{
+    position: relative;
+    width: 640px;
+    height: 11px;
+    box-shadow: inset 3px 3px 10px lightgray;
+    box-shadow: 0px 0px 10px lightgray;
+    margin: 10px 10px 10px 0px;
+}
+.bar-3::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 387px;
+    height: 11px;
+    background-color: rgb(255, 217, 0);
+}
+.bar-1::after{
+    content: '95%';
+    position: absolute;
+    bottom: 24.5px;
+    right: 58px;
+    background-color: black;
+    width:28px;
+    height:20px;
+    color: white;
+    font-size: 14px;
+    padding: 4px 5px 0px 6px;
+}
+.triangle-down{
+    position: relative;
+    left: 15px;
+    bottom:15px;
+    left: 555px;
+	width: 0;
+	height: 0;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	border-top: 10px solid black;
+}
+.bar-2::after{
+    content: '75%';
+    position: absolute;
+    bottom: 24.5px;
+    right: 150px;
+    background-color: black;
+    width:28px;
+    height:20px;
+    color: white;
+    font-size: 14px;
+    padding: 4px 5px 0px 6px;
+}
+.triangle-down1{
+    position: relative;
+    left: 15px;
+    bottom:15px;
+    left: 463px;
+	width: 0;
+	height: 0;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	border-top: 10px solid black;
+}
+.bar-3::after{
+    content: '58%';
+    position: absolute;
+    bottom: 24.5px;
+    right: 233px;
+    background-color: black;
+    width:28px;
+    height:20px;
+    color: white;
+    font-size: 14px;
+    padding: 4px 5px 0px 6px;
+}
+.triangle-down2{
+    position: relative;
+    left: 15px;
+    bottom:15px;
+    left: 380px;
+	width: 0;
+	height: 0;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	border-top: 10px solid black;
+}
+.bar-2-2{
+    margin-top: 25px;
+}
+.yellow-color {
+    background-color: rgb(255, 217, 0);
+    height: 200px;
+}
+.yellow-color h2{
+    margin: auto;
+}
+.input-type-sub{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    column-gap: 20px;
+}
+.width-contact{
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+}
+.width-contact h2{
+    font-weight: 500;
+    font-size:28px;
+}
+.SUBCRIBE-title{
+    padding: 45px;
+}
+.first-name input{
+    width: 200px;
+    padding: 8px;
+    border: none;
+    background-color: rgb(241, 227, 144);
+}
+.e-mail input{
+    width: 250px;
+    padding: 8px;
+    border: none;
+    background-color: rgb(241, 227, 144);
+}
+.input-type-sub button{
+    padding:7.5px 30px;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    border: none;
+}
+.our-team-colour{
+    background-color: rgba(0, 0, 0, 0.938);
+    color: white;
+}
+.content-team{
+    text-align: center;
+    padding: 0px 250px;
+}
+.content-team h1{
+    font-weight: 400; 
+    padding:50px 0px 10px 0px;
+}
+.content-team p{
+    font-size: 13px;
+    line-height: 1.8;
+}
+.leo img{
+    border-radius: 50%;
+    height: 160px;
+    width: 160px;
+    background-position: center;
+    background-size: cover;
+    border: 8px solid rgb(255, 217, 0);
+}
+.border-img h3{
+font-size: 22px;
+font-weight: 300;
+margin: 5px 0px;
+}
+.border-img i{
+    border: 1px solid rgb(255, 217, 0);
+    padding: 5px 25px;
+    border-radius: 4px;
+    background-color: rgb(255, 217, 0);
+    margin-top: 20px;
+    margin-bottom:60px;
+}
+.border-img p{
+    padding: 0px 10px;
+    font-size: 14px;
+    line-height: 1.8;
+}
+.border-img{
+    padding-top: 70px;
+    width: 78%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    text-align: center;
+}
+.port-folio h1{
+    font-weight: 400;
+    margin: 40px 0px 20px 0px;
+}
+.port-folio p{
+    font-size: 14px;
+    line-height: 1.8;
+}
+.port-folio{
+    text-align: center;
+    color: rgb(67, 71, 75);
+    padding: 0px 200px;
+}
+.port-btn{
+    text-align: center;
+}
+.port-btn button{
+    color: rgb(67, 71, 75);
+    padding: 5px 20px;
+    border: 1px solid rgb(255, 217, 0);
+    margin: 30px 5px 20px 5px;
+}
+.img-1-port, .img-2-port, .img-3-port{
+    background-image: url(/images/grid-1.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 260px;
+}
+.img-2-port{
+    background-image: url(/images/photo-1593155726603-89149b7cbfd6.jpg);
+}
+.img-3-port{
+    background-image: url(/images/grid-3.jpg);
+}
+.img-4-port, .img-5-port, .img-6-port{
+    background-image: url(/images/pexels-hrayr-movsisyan-2337415.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 260px;
+}
+.img--port{
+    color:rgb(255, 217, 0);
+    background-color: black;
+    font-size: 60px;
+    width: 300px;
+    height: 260px;
+    text-align: center;
+    padding-top: 95px;
+}
+.img-6-port{
+    background-image: url(/images/HD-wallpaper-evening-in-park-trees-lights-leaves-latvia-bench-dusk-park.jpg);
+}
+.port-img{
+    color: white;
+    width: 72%;
+    display: grid;
+    justify-content:space-between;
+    margin: 30px auto;
+    grid-template-columns: auto auto auto;
+}
+.port-img p{
+    margin-top: 5px;
+    font-size: 13px;
+    padding-right: 10px;
+    line-height: 1.5;
+}
+.port-img h4{
+    font-weight: 300;
+    font-size: 20px;
+}
+.port-bg{
+    margin-top:172px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.582);
+}
+.img-7-port, .img-8-port, .img-9-port{
+    background-image: url(/images/arguing-argument-boxing-boy-wallpaper-preview.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 260px;
+}
+.img-8-port{
+    background-image: url(/images/HD-wallpaper-ford-mustang-car-carro-classic-old-thumbnail.jpg);
+}
+.img-9-port{
+background-image: url(/images/360_F_937.jpg);
+}
+.back-footer{
+    background-image: url(/images/teemusphoto-urban-dystopian-singapore-wallpaper-preview.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.box-contain{
+    width: 60%;
+    margin: 0px auto;
+    color: white;
+}
+.para1{
+    padding-top: 30px;
+    color: white;
+    text-align: center;
+}
+.para1 p{
+  padding: 10px;
+  line-height: 1.5;
+  font-size: 12px;
+}
+.para1 h1{
+    font-weight: 300;
+    font-size: 25px;
+}
+.input-footer{
+    text-align: center;
+    padding-top: 30px;
+}
+.input-footer input, textarea{
+ width: 55%;
+ padding: 7px;
+ margin: 5px;
+}
+.input-footer button{
+    margin-top: 25px;
+    padding: 5px 30px;
+    font-size: 17px;
+    color: white;
+    background-color: rgb(255, 217, 0);
+    border: none;
+}
+.link-footer{
+    margin-top: 50px;
+    margin-bottom: 10px;
+
+}
+.link-footer a{
+ color: white;
+ font-size: 12px; 
+ padding: 0px 10px 30px 10px;
+}
+.input-footer p{
+    font-size: 12px;
+    padding-bottom: 30px;
+}
